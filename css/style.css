@@ -495,7 +495,7 @@ img {
 
 .heart span {
   font-size: 14px;
-  font-style: 600;
+  font-weight: 600;
   line-height: 4.143;
   text-transform: capitalize;
   margin-left: 10px;
