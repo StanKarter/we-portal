@@ -850,7 +850,7 @@ img {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body * {
@@ -1081,9 +1081,9 @@ body * {
   border: 2px solid #cecece;
   border-radius: 5px;
   cursor: pointer;
-  -webkit-transition: .25s linear;
-  -o-transition: .25s linear;
-  transition: .25s linear;
+  -webkit-transition: 0.25s linear;
+  -o-transition: 0.25s linear;
+  transition: 0.25s linear;
 }
 
 .our-projects__item:last-child {
@@ -1117,9 +1117,9 @@ body * {
   padding: 13px 13px 0px 13px;
   border-radius: 5px;
   background-color: #fff;
-  -webkit-transition: .25s linear;
-  -o-transition: .25s linear;
-  transition: .25s linear;
+  -webkit-transition: 0.25s linear;
+  -o-transition: 0.25s linear;
+  transition: 0.25s linear;
 }
 
 .card__img {
@@ -1153,9 +1153,9 @@ body * {
   height: 60px;
   font-size: 24px;
   color: #c7c9ce;
-  -webkit-transition: .25s linear;
-  -o-transition: .25s linear;
-  transition: .25s linear;
+  -webkit-transition: 0.25s linear;
+  -o-transition: 0.25s linear;
+  transition: 0.25s linear;
   border-right: 1px solid #efefef;
 }
 
@@ -1188,9 +1188,9 @@ body * {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transition: .25s linear;
-  -o-transition: .25s linear;
-  transition: .25s linear;
+  -webkit-transition: 0.25s linear;
+  -o-transition: 0.25s linear;
+  transition: 0.25s linear;
   font-size: 50px;
   color: #d4d4d4;
 }
@@ -1288,7 +1288,7 @@ body * {
 .footer__item {
   list-style-type: disc;
   color: #6d6e71;
-  margin: 0  15px;
+  margin: 0 15px;
 }
 
 .footer__item:last-child {
@@ -1296,9 +1296,9 @@ body * {
 }
 
 .footer__link {
-  -webkit-transition: .25s linear;
-  -o-transition: .25s linear;
-  transition: .25s linear;
+  -webkit-transition: 0.25s linear;
+  -o-transition: 0.25s linear;
+  transition: 0.25s linear;
   font-weight: 300;
   font-size: 13px;
   color: #6d6e71;
@@ -1327,16 +1327,16 @@ body * {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
-  -webkit-transition: .25s linear;
-  -o-transition: .25s linear;
-  transition: .25s linear;
+  -webkit-transition: 0.25s linear;
+  -o-transition: 0.25s linear;
+  transition: 0.25s linear;
 }
 
 .footer__letter {
   position: relative;
-  -webkit-transition: .25s linear;
-  -o-transition: .25s linear;
-  transition: .25s linear;
+  -webkit-transition: 0.25s linear;
+  -o-transition: 0.25s linear;
+  transition: 0.25s linear;
 }
 
 .footer__letter:hover svg {
@@ -1345,9 +1345,9 @@ body * {
 
 .footer__letter svg {
   position: absolute;
-  -webkit-transition: .25s linear;
-  -o-transition: .25s linear;
-  transition: .25s linear;
+  -webkit-transition: 0.25s linear;
+  -o-transition: 0.25s linear;
+  transition: 0.25s linear;
   top: 50%;
   left: 20px;
   -webkit-transform: translateY(-50%);
@@ -1373,9 +1373,9 @@ body * {
   font-weight: 700;
   line-height: 1;
   padding: 15px 25px;
-  -webkit-transition: .25s linear;
-  -o-transition: .25s linear;
-  transition: .25s linear;
+  -webkit-transition: 0.25s linear;
+  -o-transition: 0.25s linear;
+  transition: 0.25s linear;
   border-radius: 10px;
   background-color: #494c4d;
   position: absolute;
@@ -1443,6 +1443,11 @@ body * {
 #map .info__link--active {
   color: #fff;
   background-color: #1faae2;
+}
+
+#map iframe {
+  width: 100%;
+  border-width: 0;
 }
 
 .map__contact {
